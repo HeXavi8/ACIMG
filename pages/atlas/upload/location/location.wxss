@@ -1,0 +1,70 @@
+/* pages/atlas/upload/location/location.wxss */
+.search_bar{
+  position: relative;
+  height: 70rpx;
+  margin-bottom: 20rpx;
+}
+
+.input_text{
+  background: rgba(0,0,0,.05);
+  margin: 0 20rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  padding-left: 108rpx;
+}
+
+.icon_search{
+  position: absolute;
+  width: 48rpx;
+  height: 48rpx;
+  top: 11rpx;
+  left: 50rpx;
+}
+
+.is_not_show{
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  color: rgba(0,0,0,.8);
+  font-size: 36rpx;
+  padding: 30rpx 30rpx;
+}
+
+.is_not_show image{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.icon_text{
+  width: 80%;
+}
+
+.icon_checked{
+  width: 20%;
+}
+
+.location_box{
+  width: 100%;
+  height: 80rpx;
+  padding: 32rpx 37rpx 31rpx 30rpx;
+  
+}
+
+.location_text{
+  color:rgba(0,0,0,.8);
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.location_desc_text{
+  width: 90%;
+  overflow: hidden;
+  /* 溢出的文字用...表示 */
+  text-overflow: ellipsis;
+  /* 规定段落中的文字不能换行 */
+  white-space: nowrap;
+  color: rgba(0,0,0,.4);
+  font-size:24rpx;
+  padding-bottom: 31rpx;
+  border-bottom: 1px solid rgba(0,0,0,.05);
+}

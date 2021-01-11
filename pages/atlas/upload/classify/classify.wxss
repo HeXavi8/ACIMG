@@ -1,0 +1,6 @@
+/* pages/atlas/upload/classify/classify.wxss */
+
+.classify_item{
+  padding: 32rpx 30rpx 32rpx 30rpx;
+  border-bottom: 1px solid rgb(0,0,0,.05);
+}

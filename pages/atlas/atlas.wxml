@@ -1,0 +1,35 @@
+<g-title-content>
+  <text slot="left"></text>
+  <text slot="center">ACIMG</text>
+</g-title-content>
+
+<view class="top_icon">
+   <image class="logo" src="/image/logo.png"/>
+   <image class="search" bindtap="search" src="/image/icon／ic_search.png"/>
+</view>
+
+<view class="class_part">
+  <scroll-view scroll-x="true" style="white-space: nowrap;width:88%">
+      <view class="class_container" wx:for="{{classes}}" wx:key="index" data-index="{{index}}"bindtap="chooseClass" style="background:{{class_chosen[index]==1?'#302FA6':'#ffffff'}};color:{{class_chosen[index]==1?'#ffffff':'#000000'}}">
+         <view class="class_text" >
+            <text>{{classes[index]}}</text>
+         </view>
+      </view>
+  </scroll-view>
+ <image class="more" src="/image/icon／ic_tab.png"></image>
+</view>
+
+<view class="image_item">
+   <view class="item_outer_box" wx:for="{{10}}">
+      <view class="image_box">
+         <image class="left_image" src="/image/test.jpg"/>
+         <image class="right_image_top" src="/image/test.jpg"/>
+         <image class="right_image_bottom" src="/image/test.jpg"/>
+      </view>
+      <view class="item_title">图册名称</view>
+      <view class="item_addr">中国 广东 广州</view>
+   </view>
+</view>
+
+
+<image class="upload" src="/image/btn／btn_add.png" bindtap="upload"></image>

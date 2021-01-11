@@ -1,0 +1,9 @@
+<!--pages/atlas/upload/classify/classify.wxml-->
+<view class="classify_item" 
+      wx:for="{{classifyList}}"
+      wx:for-index="key"
+      bindtap="classifyItemClick"
+      data-index="{{key}}"
+      wx:key="key_add">
+  <view>{{item}}</view>
+</view>

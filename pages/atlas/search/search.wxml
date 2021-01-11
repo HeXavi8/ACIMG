@@ -1,0 +1,15 @@
+<view class="search" >
+  <image class="search_img" src="/image/icon／ic_search.png" bindtap="search"></image>
+  <input class="search_input" placeholder="搜索..." placeholder-style='font-size:28rpx;' bindinput="bindInput"></input>
+  <text class="serach_text" bindtap="searchCancel">取消</text>
+</view>
+
+
+<view class="search_history">搜索历史</view>
+
+<view style="margin-top: 20rpx" >
+  <view wx:for="{{history_context}}" wx:key="index" class="history_context">
+    <text>{{history_context[index]}}</text>
+    <image src="/image/icon／ic_cancel.png" bindtap="historyCancel"></image>
+  </view>
+</view>

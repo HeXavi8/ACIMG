@@ -1,0 +1,22 @@
+<!--pages/atlas/photos-detail/childCpns/pop-box/pop-box.wxml-->
+<view class="pop_layer"></view>
+<view class="pop_box">
+  <view class="pop_title_box">
+    <text class="pop_title_text">关键词1</text>
+    <view class="pop_title_close" bindtap="handleTap">
+      <image src="/image/nav／ico_back_grey.png"></image>
+    </view>
+  </view>
+  <view class="pop_desc">
+    <scroll-view scroll-y="true" show-scrollbar="false" style="height: 778rpx; width:530rpx">
+      <image src="/image/test.jpg"></image>
+      <view class="pop_desc_text">
+        占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+      </view>
+      <image src="/image/test.jpg"></image>
+      <view class="pop_desc_text">
+        占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+/* components/g-item-tag/g-item-tag.wxss */
+.tag_container{
+  padding: 12rpx 21rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 24rpx;
+  border-radius: 50rpx;
+  margin-right: 20rpx;
+  display: inline;
+}

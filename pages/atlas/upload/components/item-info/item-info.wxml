@@ -1,0 +1,6 @@
+<!--pages/upload/components/item-info/item-info.wxml-->
+<view class="outer_container">
+  <text class="container_left"><slot name="left"></slot></text>
+  <text class="container_center"><slot name="center"></slot></text>
+  <image src="/image/icon／ic_left.png" class="container_right"/>
+</view>

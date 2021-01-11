@@ -1,0 +1,17 @@
+<!--pages/atlas/upload/location/location.wxml-->
+<view class="search_bar">
+  <image src="/image/icon／ic_search.png" class="icon_search"/>
+  <input type="text" class="input_text" placeholder="搜索地址..."/>
+</view>
+
+<view class="is_not_show">
+  <view class="icon_text">不显示地址</view>
+  <view class="icon_checked"><image src="/image/icon／ic_checked.png"/></view>
+</view>
+
+<view class="location_box" wx:for="{{6}}" wx:key="key">
+  <view class="location_text">地址详情</view>
+  <view class="location_desc_text">
+    占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+  </view>
+</view>

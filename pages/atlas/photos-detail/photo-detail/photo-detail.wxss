@@ -1,0 +1,108 @@
+/* pages/atlas/photos-detail/photo-detail/photo-detail.wxss */
+.disable_scroll{
+  height: 100vh; 
+  overflow:hidden;
+}
+
+.top_bg{
+  width: 100%;
+  position: fixed;
+  height: 132rpx;
+  background: #fff;
+  z-index: 9;
+}
+
+.top_bg2{
+  height: 132rpx;
+  position: relative;
+  width: 100%;
+  background: #fff;
+}
+
+.top_container{
+  height: 132rpx;
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.top_back{
+  position: fixed;
+  top: 62rpx;
+  left: 30rpx;
+  width:48rpx;
+  height: 48rpx;
+  z-index: 99;
+}
+
+.top_back image{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.top_title{
+  position: fixed;
+  top: 60rpx;
+  left: 304rpx;
+  font-size: 36rpx;
+  z-index: 99;
+}
+
+.photo_img{
+  margin: 24rpx 0rpx 60rpx 40rpx;
+  width: 670rpx;
+  height: 670rpx;
+  border-radius: 20rpx;
+}
+
+.image_title{
+  position: relative;
+  font-size:36rpx;
+  color: rgba(0,0,0,.8);
+  margin: 0 40rpx 30rpx 40rpx;
+}
+
+.download_img{
+  position: absolute;
+  width: 48rpx;
+  height: 48rpx;
+  right: 0;
+}
+
+.photo_desc{
+  margin: 0 40rpx;
+}
+
+.photo_desc_time{
+  margin-bottom: 20rpx;
+  color: rgba(0,0,0,.4);
+}
+
+.photo_desc_type{
+  color: rgba(0,0,0,.4);
+  margin-bottom: 30rpx;
+}
+
+.photo_desc_text{
+  font-size:28rpx;
+  color: rgba(0,0,0,.8);
+  margin-bottom: 20rpx;
+}
+
+.photo_show_desc{
+  color:#302FA6;
+  margin-bottom: 60rpx;
+}
+
+.all_image_text {
+  margin: 60rpx 0 40rpx 40rpx;
+  color: rgba(0,0,0,.8);
+}
+
+.all_image{
+  background: pink;
+  height:616rpx;
+  width: 100%;
+}
+
+

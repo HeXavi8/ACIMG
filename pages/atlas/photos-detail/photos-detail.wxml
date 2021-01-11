@@ -1,0 +1,56 @@
+<!-- 页面顶部图册显示 -->
+<view class="{{is_show ? 'disable_scroll' : ''}}">
+  <view class="top_container">
+    <image src="/image/test.jpg" class="top_img"/>
+
+    <view class="top_back">
+      <!-- <image src="/image/nav／ico_back_grey.png"/> -->
+      <text style="color:#ffffff" bindtap="_backClick"> 《 </text>
+    </view>
+    <text class="top_title">图册</text>
+  </view>
+
+  <!-- 页面中间显示 -->
+  <view class="item_title">图册名称</view>
+  <view class="item_tag">
+    <text>{{photo_tags_str}}</text>
+  </view>
+  <view class="item_tag_time">
+    <text>{{get_time}} 采集 | 收录 {{collect_time}}</text>
+  </view>
+
+  <!-- 中央头像显示 -->
+  <view class="center_photo">
+    <image src="/image/center_photo.jpg"/>
+  </view>
+
+  <!-- 详情与展开详情 -->
+  <view class="detail_container">
+    <view class="detail_text">
+      图册简介:占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+    </view>
+    <view class="show_more" bindtap="showPopBox">
+      展开详情
+    </view>
+    <view class="location">
+      <image src="/image/icon／ic_map.png" class="ic_map"/>
+      <view class="loc_text">中国 广东 广州 天河区 珠江新城广州大剧院</view>
+    </view>
+
+    <!-- 做标签用，使用了全局组件 -->
+    <view class="tag_container_outer">
+      <g-item-tag tag_text="标签1" bg_color="#302FA6"/>
+      <g-item-tag tag_text="测试标签2" bg_color="#DF6C4F"/>
+      <g-item-tag tag_text="测试标签标签3" bg_color="#0091FF"/>
+    </view>
+  </view>
+
+  <!-- ———————————————————— -->
+  <!-- 先留空，等以后再写组件 -->
+  <view class="all_image_text">所有图像</view>
+  <view class="all_image"></view>
+  <!-- ———————————————————— -->
+
+  <know-view></know-view>
+  <pop-box wx:if="{{is_show}}" bindclosePopBox="closePopBox"/>
+</view>

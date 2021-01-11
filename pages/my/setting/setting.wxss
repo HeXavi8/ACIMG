@@ -1,0 +1,43 @@
+/* pages/my/setting/setting.wxss */
+
+
+.head{
+  position: absolute;
+  left: 304rpx;
+  top: 40rpx;
+  width: 142rpx;
+  height: 142rpx;
+  background-color: gray;
+  border-radius: 50%;
+}
+.edit{
+  position: absolute;
+  top: 40rpx;
+  left: 398rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.box{
+  width: 750rpx;
+  height: 100rpx;
+
+  display: flex;
+  align-items: center;
+}
+.box text{
+  margin-left: 30rpx;
+  width: 150rpx;
+  height: 36rpx;
+  font-size: 36rpx;
+  font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 36rpx;
+}
+.box image{
+  position: absolute;
+  right: 30rpx;
+  height: 48rpx;
+  width: 48rpx;
+}

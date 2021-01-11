@@ -1,0 +1,27 @@
+<!--pages/my/components/email/email.wxml-->
+<view class="popup" hidden="{{flag}}">
+    <view class="container">
+        <view class="title">
+            <view class="email">绑定邮箱</view>
+            <image class="img" src="/image/false.png" bindtap='_error' />
+        </view>
+        <view class="content">
+            <input class="input" name="email" placeholder="输入邮箱" bindinput="emailInput" />
+        </view>
+        <view class="content2">
+            <view class="code">
+                <input class="input" placeholder="输入验证码" bindinput="code"/>
+            </view>
+            <view class="btn-code">
+              <view class="btn-code-input">验证码</view>  
+            </view>
+            
+        </view>
+        <view class="btn-no" bindtap='_error'>
+            <view class="text">放弃</view>
+            </view>
+        <view class="btn-ok" bindtap='_success'>
+             <view class="text text-ok">保存</view>
+        </view>
+    </view>
+</view>

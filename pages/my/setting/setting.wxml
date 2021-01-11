@@ -1,0 +1,22 @@
+<!--pages/my/setting/setting.wxml-->
+
+<image class="head" src="{{avatarUrl}}"></image>
+<image class="edit" src="/image/icon／ic_edit.png"></image>
+
+
+<view class="box" style="margin-top: 262rpx;"><text>用户名</text><image src="/image/icon／ic_left.png" bindtap="username_showPopup"></image></view>
+<view class="box"><text>密码设置</text><image src="/image/icon／ic_left.png" bindtap="password_showPopup"></image></view>
+<view class="box"><text>邮箱绑定</text><image src="/image/icon／ic_left.png" bindtap="email_showPopup"></image></view>
+<view class="box"><text>微信</text><image src="/image/icon／ic_left.png"></image></view>
+<username_popup id='username_popup' 
+      bind:error="_username_error"  
+      bind:success="_username_success">
+  </username_popup>
+  <password_popup id='password_popup' 
+      bind:error="_password_error"  
+      bind:success="_password_success">
+  </password_popup>
+  <email_popup id='email_popup' 
+      bind:error="_email_error"  
+      bind:success="_email_success">
+  </email_popup>

@@ -1,0 +1,39 @@
+<!--pages/atlas/photos-detail/photo-detail/photo-detail.wxml-->
+<view class="{{is_show ? 'disable_scroll' : ''}}">
+  <!-- 顶部制作 -->
+  <view class="top_bg"></view>
+  <view class="top_bg2"></view>
+    <view class="top_back" style="background: #666">
+      <image src="/image/nav／ico_back_grey.png"/>
+    </view>
+      <text class="top_title">图像详情</text>
+
+  <!-- 中央图片 -->
+  <image src="/image/test.jpg" class="photo_img"/>
+  <view class="image_title">
+    <text>图像名称</text>
+    <image src="/image/nav／ico_download_grey.png" class="download_img"/>
+  </view>
+
+  <!-- 图片信息 -->
+  <view class="photo_desc">
+    <view class="photo_desc_time">收录时间：2020-07-08</view>
+    <view class="photo_desc_type">图像类型：PNG</view>
+    <view class="photo_desc_text">
+      图册简介:占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+    </view>
+    <view class="photo_show_desc">展开详情</view>
+  </view>
+
+  <!-- 知识图谱组件 -->
+  <know-view></know-view>
+
+  <!-- ———————————————————— -->
+  <!-- 先留空，等以后再写组件 -->
+  <view class="all_image_text">所有图像</view>
+  <view class="all_image"></view>
+  <!-- ———————————————————— -->
+
+  <!-- 弹框的展示 is_show默认为true，会弹出，点击关闭后就将is_show设置为false -->
+  <pop-box wx:if="{{is_show}}" bindclosePopBox="closePopBox"/>
+</view>

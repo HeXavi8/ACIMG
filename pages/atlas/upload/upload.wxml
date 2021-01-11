@@ -1,0 +1,50 @@
+<!--pages/upload/upload.wxml-->
+<view class="top_bg"></view>
+<view class="{{is_show ? 'disable_scroll' : ''}}">
+  <text style="top:{{heig}}px" class="top_cancel" bindtap="_cancel">取消</text>
+  <text style="top:{{heig}}px" class="top_title">新建图册</text>
+  <!-- <text >新建图册</text> -->
+  <input class="input_name" placeholder="填写图册名称"/>
+
+  <view class="desc_container">
+    <text class="title_desc">描述</text>
+    <textarea class="text_desc" placeholder="为你的图册加点描述吧..."></textarea>
+  </view>
+
+  <view class="key_container">
+    <text class="key_desc">关键词</text>
+    <text class="key_info">多个关键词用英文逗号(,)隔开</text>
+    <textarea class="key_text_desc" placeholder="为你的图册加点关键词吧..."></textarea>
+  </view>
+
+  <view wx:for="{{itemInfos}}" 
+          wx:for-index="key" 
+          wx:key="index" 
+          bindtap="itemClick"
+          data-index="{{key}}">
+    <item-info>
+      <text slot="left">{{item.title}}</text>
+      <text slot="center">{{item.value}}</text>
+    </item-info>
+  </view>
+
+  <view class="tag_container">
+    <text class="tag_text">标签</text>
+    <view class="tag_add">+</view>
+  </view>
+  <view class="commit_btn" bindtap="_addClick">完成并添加图像</view>
+
+  <view class="pop_up" wx:if="{{is_show}}">
+    <view class="pop_box">
+      <view class="pop_box_top">
+        操作提示
+        <image src="/image/false.png" class="close_btn" bindtap="_backClick"/>
+      </view>
+      <view class="pop_box_content">
+        当前尚未添加图像，取消将放弃保存图册
+        <view class="btn_cancel" bindtap="_abandonClick">放弃</view>
+        <view class="btn_back" bindtap="_backClick">返回</view>
+      </view>
+    </view>
+  </view>
+</view>
