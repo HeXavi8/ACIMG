@@ -1,0 +1,4 @@
+<!--components/g-item-tag/g-item-tag.wxml-->
+<view class="tag_container" style="width: {{wid * text_length}}rpx; background-color: {{bg_color}}">
+  <text>{{tag_text}}</text>
+</view>

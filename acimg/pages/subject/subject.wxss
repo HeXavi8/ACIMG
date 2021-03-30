@@ -1,0 +1,126 @@
+/* pages/subject/subject.wxss */
+.top_icon {
+  position: relative;
+  width: 100%;
+  height: 122rpx;
+  background: #fff;
+}
+
+.subject {
+  position: absolute;
+  width: 121rpx;/*与设计稿有出入，设计稿是111，但是“专题”两字长度不够*/
+  height: 56rpx;
+  font-size: 56rpx;
+  font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+  font-weight: 400rpx;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 56rpx;
+  top: 24rpx;
+  left: 60rpx;
+}
+
+.search {
+  position: absolute;
+  top: 34rpx;
+  right: 60rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.more {
+  position: absolute;
+  /* top: 152rpx; */
+  right: 16rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.class_part {
+  display: flex;
+  align-items: center;
+  width: 750rpx;
+  height: 80rpx;
+  background: #FFFFFF;
+}
+
+
+.class_scroll {
+  display: inline-block;
+
+  /* flex-direction: row;
+  white-space: nowrap;  */
+  height: 80rpx;
+
+}
+
+.class_container {
+  display: inline-block;
+  width: 104rpx;
+  height: 48rpx;
+  margin-left: 24rpx;
+  background: #302FA6;
+  border-radius: 26rpx;
+  color: #000000;
+
+}
+
+
+.class_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.class_text text {
+  margin-top: 12rpx;
+  width: 48rpx;
+  height: 24rpx;
+  font-size: 23rpx;
+  font-weight: 400;
+  /* color: #FFFFFF; */
+  line-height: 24rpx;
+}
+
+.subject_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 24rpx 40rpx;
+}
+
+.item_outer_box {
+  width: 320rpx;
+  overflow: hidden;
+}
+
+.subject_box {
+  height: 220rpx;
+  width: 320rpx;
+  background: black;
+  position: relative;
+  border-radius: 20rpx;
+}
+
+/* .subject_item {
+  width: 220rpx;
+  height: 240rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+} */
+
+
+.item_title {
+  margin: 0rpx 0 16rpx 10rpx;
+  color: rbga(0, 0, 0, .8);
+  font-size: 28rpx;
+}
+
+.item_addr {
+  margin-left: 10rpx;
+  color: rgba(0, 0, 0, .4);
+  font-size: 20rpx;
+}

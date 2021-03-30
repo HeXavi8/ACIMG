@@ -1,0 +1,8 @@
+<!--components/g-title-content.wxml-->
+<view class="top_title" style="height:{{topbottom}}px">
+  <view class="left_box" style="top:{{heig}}px"><slot name="left"></slot></view>
+  <view class="center_box" style="top:{{heig}}px"><slot name="center"></slot></view>
+</view>
+
+<view class="top_bg" style="height:{{topbottom}}px"></view>
+

@@ -1,0 +1,24 @@
+/* components/g-title-content.wxss */
+.top_title{
+  background: #fff;
+  width:100%;
+  position: fixed;
+  z-index:999;
+}
+
+.top_bg{
+  background: #fff;
+  width:100%;
+}
+
+.left_box{
+  position: absolute;
+  left: 22rpx;
+}
+
+.center_box{
+  position: absolute;
+  left:322rpx;
+  font-size: 36rpx;
+  color:rgba(0,0,0,80%);
+}

@@ -1,0 +1,18 @@
+<!-- components/setting.wxml -->
+<view class="popup" hidden="{{flag}}">
+    <view class="container">
+        <view class="title">
+            <view class="username">修改用户名</view>
+            <image class="img" src="/image/false.png" bindtap='_error' />
+        </view>
+        <view class="content">
+            <input class="input" name="userName" placeholder="用户名" bindinput="userNameInput" />
+        </view>
+        <view class="btn-no" bindtap='_error'>
+            <view class="text">放弃</view>
+            </view>
+        <view class="btn-ok" bindtap='_success'>
+             <view class="text text-ok">保存</view>
+        </view>
+    </view>
+</view>

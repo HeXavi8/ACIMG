@@ -1,0 +1,75 @@
+<!--pages/subject/subjects-detail/subjects-detail.wxml-->
+<view class="{{is_show ? 'disable_scroll' : ''}}">
+  <view class="top_container">
+    <image src="/image/test.jpg" class="top_img"/>
+
+    <view class="top_back">
+      <!-- <image src="/image/nav／ico_back_grey.png"/> -->
+      <text style="color:#ffffff" bindtap="_backClick"> 《 </text>
+    </view>
+    <text class="top_title">专题</text>
+  </view>
+
+  <!-- 页面中间显示 -->
+  <view class="subject_title">专题名称</view>
+  <view class="item_tag">
+    <text>{{introduction}}</text>
+  </view>
+  <view class="item_tag_time">
+    <text>发布时间{{time}}</text>
+  </view>
+
+  <!-- 中央头像显示 -->
+  <view class="center_photo">
+    <image src="/image/center_photo.jpg"/>
+  </view>
+
+  <!-- 详情与展开详情 -->
+  <view class="detail_container">
+    <view class="detail_text">
+      图册简介:占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符占位字符
+    </view>
+    <view class="show_more" bindtap="showPopBox">
+      展开详情
+    </view>
+
+        <!-- 做标签用，使用了全局组件 -->
+    <view class="tag_container_outer">
+    <text>图像示例</text>
+      <!-- <g-item-tag tag_text="图像示例" bg_color="#302FA6" style=""/> -->
+    </view>
+
+  </view>
+
+  <!-- ———————————————————— -->
+  <!-- 先留空，等以后再写组件 -->
+  <view class="all_image_text">所有图册</view>
+
+
+  <!-- <view class="image_item">
+   <view class="item_outer_box" wx:for="{{10}}">
+      <view class="image_box" bindtap="gotoDetail">
+         <image class="left_image" src="/image/test.jpg"/>
+         <image class="right_image_top" src="/image/test.jpg"/>
+         <image class="right_image_bottom" src="/image/test.jpg"/>
+      </view>
+      <view class="item_title">图册名称</view>
+      <view class="item_addr">中国 广东 广州</view>
+   </view>
+  </view> -->
+  <view class="image_item">
+   <view class="item_outer_box" wx:for="{{list}}" wx:for-item="item" >
+      <view class="image_box" bindtap="gotoDetail" data-item="{{item}}">
+         <image class="left_image" src="{{item.img_1}}"/>
+         <image class="right_image_top" src="{{item.img_2}}"/>
+         <image class="right_image_bottom" src="{{item.img_3}}"/>
+      </view>
+      <view class="item_title">{{item.title}}</view>
+      <view class="item_addr">{{item.country}} {{item.province}} {{item.city}}</view>
+   </view>
+</view>
+
+
+
+  <!-- <pop-box wx:if="{{is_show}}" bindclosePopBox="closePopBox"/> -->
+</view>

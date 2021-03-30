@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "item-info": "./components/item-info/item-info"
+  },
+  "navigationStyle": "custom"
+}

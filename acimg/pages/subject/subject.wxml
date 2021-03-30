@@ -1,0 +1,34 @@
+<!--pages/subject/subject.wxml-->
+<g-title-content>
+  <text slot="left"></text>
+  <text slot="center">ACIMG</text>
+</g-title-content>
+
+<view class="top_icon">
+   <!-- <image class="logo" src="/image/logo.png"/> -->
+   <text class="subject">专题</text>
+   <image class="search" bindtap="search" src="/image/icon／ic_search.png"/>
+</view>
+
+<view class="class_part">
+  <scroll-view scroll-x="true" style="white-space: nowrap;width:88%">
+      <view class="class_container" wx:for="{{classes}}" wx:key="index" data-index="{{index}}"bindtap="chooseClass" style="background:{{class_chosen[index]==1?'#302FA6':'#ffffff'}};color:{{class_chosen[index]==1?'#ffffff':'#000000'}}">
+         <view class="class_text" >
+            <text>{{classes[index]}}</text>
+         </view>
+      </view>
+  </scroll-view>
+ <image class="more" src="/image/icon／ic_tab.png"></image>
+</view>
+
+<view class="subject_item">
+   <view class="item_outer_box" wx:for="{{10}}">
+      <!-- <view class="image_box" > -->
+         <image class="subject_box" src="/image/test.jpg" bindtap="gotoDetail"></image>
+         <!-- <image class="right_image_top" src="/image/test.jpg"/>
+         <image class="right_image_bottom" src="/image/test.jpg"/> -->
+      <!-- </view> -->
+      <view class="item_title">专题名称</view>
+
+   </view>
+</view>

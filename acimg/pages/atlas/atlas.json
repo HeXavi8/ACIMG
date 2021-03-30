@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "g-title-content": "/components/g-title-content/g-title-content"
+  },
+  "navigationStyle": "custom"
+}

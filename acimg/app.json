@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/atlas/atlas",
+    "pages/atlas/photos-detail/photos-detail",
+    "pages/atlas/photos-detail/photo-detail/photo-detail",
+    "pages/atlas/upload/upload",
+    "pages/subject/subject",
+    "pages/atlas/search/search",
+    "components/g-item-tag/g-item-tag",
+    "pages/atlas/photos-detail/childCpns/know-view/know-view",
+    "pages/my/my",
+    "pages/atlas/photos-detail/childCpns/pop-box/pop-box",
+    "pages/atlas/upload/components/item-info/item-info",
+    "pages/my/setting/setting",
+    "pages/atlas/upload/classify/classify",
+    "pages/atlas/upload/location/location",
+    "pages/subject/subjects-detail/subjects-detail"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ACIMG",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "image/atlas_on.png",
+        "iconPath": "image/atlas.png",
+        "pagePath": "pages/atlas/atlas"
+      },
+      {
+        "selectedIconPath": "image/subject_on.png",
+        "iconPath": "image/subject.png",
+        "pagePath": "pages/subject/subject"
+      },
+      {
+        "selectedIconPath": "image/my_on.png",
+        "iconPath": "image/my.png",
+        "pagePath": "pages/my/my"
+      }
+    ]
+  }
+}

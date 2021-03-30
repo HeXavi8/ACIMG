@@ -1,0 +1,8 @@
+<!--pages/atlas/photos-detail/childCpns/know-view/know-view.wxml-->
+<view class="know_text">知识图谱</view>
+<scroll-view scroll-x="true" style="white-space: nowrap" class="know_scroll">
+  <view class="know_item" wx:for="{{7}}" wx:key="key">
+    <image src="/image/testAll.png"></image>
+    <text class="know_key_word">关键词</text>
+  </view>
+</scroll-view>

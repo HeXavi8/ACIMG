@@ -1,0 +1,40 @@
+<!--pages/my/my.wxml-->
+
+
+<view class="top">
+  <view class="btn_sign_in" wx:if="{{!authorize}}">
+   <button style="width:500rpx;background-color: #FFFFFF;" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+    <image src="/image/register.png" ></image>
+    <text>未登录</text>
+   </button>
+  </view>
+   <image wx:if="{{authorize}}" class="avatarUrl" src="{{avatarUrl}}"></image>
+   <text wx:if="{{authorize}}" class="avatarUrl_text">{{nickName}}</text>
+   <!--个人页面-->
+   <image class="setting" bindtap="setting" src="/image/icon／ic_setting.png"></image>
+
+   <view style="position: absolute;left: 60rpx;top: 270rpx;" class="state" bindtap="uncheck">
+     <text style="color:{{is_chosen[0]==1?'#302FA6':'rgba(0, 0, 0, 0.8)'}}"class="state_number">0</text>
+     <text class="state_text" style="color:{{is_chosen[0]==1?'#302FA6':'rgba(0, 0, 0, 0.8)'}}">未审核</text>  
+  </view>
+
+   <view style="position: absolute;left: 200rpx;top: 270rpx;" class="state" bindtap="check">
+     <text class="state_number" style="color:{{is_chosen[1]==1?'#302FA6':'rgba(0, 0, 0, 0.8)'}}">0</text>
+     <text class="state_text" style="color:{{is_chosen[1]==1?'#302FA6':'rgba(0, 0, 0, 0.8)'}}">已审核</text>
+   </view>
+
+   <view class='b' style="left:{{left}}rpx"></view>
+</view>
+
+<view class="image_item">
+   <view class="item_outer_box" wx:for="{{10}}">
+      <view class="image_box" bindtap="gotoDetail">
+         <image class="left_image" src="/image/test5.jpg"/>
+         <image class="right_image_top" src="/image/test4.jpg"/>
+         <image class="right_image_bottom" src="/image/test6.jpg"/>
+      </view>
+      <view class="item_title">图册名称</view>
+      <view class="item_addr">中国 广东 广州</view>
+   </view>
+</view>
+

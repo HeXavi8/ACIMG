@@ -1,0 +1,60 @@
+/* pages/atlas/photos-detail/childCpns/pop-box/pop-box.wxss */
+.pop_layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:  rgba(0, 0, 0, 0.5);
+}
+
+.pop_box{
+  position: fixed;
+  background: #fff;
+  top: 214rpx;
+  left: 80rpx;
+  display: block;
+  width: 590rpx;
+  height: 904rpx;
+  border-radius: 20rpx;
+  z-index: 999;
+}
+
+.pop_title_box{
+  height:96rpx;
+  position: relative;
+}
+
+.pop_title_text{
+  position: absolute;
+  top: 30rpx;
+  left:232rpx;
+  font-size: 36rpx;
+  color: rgba(0,0,0,.8);
+}
+
+.pop_title_close{
+  position: absolute;
+  top:24rpx;
+  right: 30rpx;
+}
+
+.pop_title_close image{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.pop_desc{
+  height: 808rpx;
+  margin: 31rpx 40rpx 26rpx;
+}
+
+.pop_desc image{
+  height: 339.62rpx;
+  width:510rpx;
+  border-radius: 20rpx;
+}
+
+.pop_desc_text{
+  margin: 26rpx 0 30rpx;
+}
