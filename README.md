@@ -2,6 +2,8 @@
 
 ACIMG(Arts & Culture Images) aims to create a nation wide image dataset of cultural relics and ancient buildings by college students from all over the country. This is carried out in the form of the matic image solicitation. For example, in the image project of Lingnan architecture, college students in Guangdong take pictures of typical Lingnan buildings in their study places or hometown with mobile phones and other photographing equipment, and then upload them to the ACIMG system.
 
+This project is still under development.
+
 ## Table of Contents
 * [Snapshots](#Snapshots)
 * [Usage](#Usage)
