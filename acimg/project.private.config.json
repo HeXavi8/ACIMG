@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/upload/upload",
+          "pathName": "pages/atlas/upload/upload",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/atlas/photos-detail/photos-detail",
+          "pathName": "pages/atlas/photos-detail/photos-detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "components/g-title-content/g-title-content",
+          "pathName": "components/g-title-content/g-title-content",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

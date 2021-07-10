@@ -1,5 +1,5 @@
 <g-title-content>
-  <text slot="left"></text>
+  <!-- <text slot="left">返回</text> -->
   <text slot="center">ACIMG</text>
 </g-title-content>
 

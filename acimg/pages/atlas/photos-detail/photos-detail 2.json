@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "g-item-tag": "/components/g-item-tag/g-item-tag",
+    "know-view": "./childCpns/know-view/know-view",
+    "pop-box": "./childCpns/pop-box/pop-box"
+  },
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white"
+}

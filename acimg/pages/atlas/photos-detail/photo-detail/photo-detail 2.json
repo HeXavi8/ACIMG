@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "know-view": "../childCpns/know-view/know-view",
+    "pop-box": "../childCpns/pop-box/pop-box"
+  },
+  "navigationStyle": "custom"
+}
