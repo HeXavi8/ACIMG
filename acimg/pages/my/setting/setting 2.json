@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "username_popup": "../components/username/username",
-    "email_popup": "../components/email/email",
-    "password_popup": "../components/password/password"
-  },
-  "navigationBarTitleText": "个人信息"
-}
