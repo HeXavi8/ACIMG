@@ -35,8 +35,10 @@ App({
   },
   globalData: {
     userInfo: null,
-    jsonUrlPrefix: "https://orgi.micerlabs.com/json/",
-    imgUrlPrefix:"https://orgi.micerlabs.com/zimg/"
+    //这里传输的是部署在数据库的文件
+    //格式可以参考一下demo.json和album.json
+    jsonUrlPrefix: "https://xxxx.xxxxxxxx.com/json/",
+    imgUrlPrefix:"https://xxxx.xxxxxxxx.com/zimg/"
     
   }
 })

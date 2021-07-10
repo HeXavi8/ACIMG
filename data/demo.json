@@ -1,0 +1,68 @@
+{
+    "status": 200,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "id":"1",
+                "img_1": "03031ea9da74412f68a2b32ab0defaea",
+                "img_2": "43c3aea7e69ce7031307f167eb2a3433",
+                "img_3": "6ca52a402645a50583f9faf6ce07d245",
+                "title": "苏州建筑图册",
+                "country": "中国",
+                "province": "江苏",
+                "city":"苏州"
+            },
+            {
+                "id":"2",
+                "img_1": "d0d28442a926784ef18ce4ea9ba840b5",
+                "img_2": "a28a874c9938701b60de07a4b92b94ad",
+                "img_3": "53cdac7a2114c7e98699b3dee4ea2c4d",
+                "title": "汕头建筑图册",
+                "country": "中国",
+                "province": "广东",
+                "city":"汕头"
+            },
+            {
+                "id":"3",
+                "img_1": "e6e0a31ac7cea47d6403050984ebb985",
+                "img_2": "e5a0ee862b8baec8e39033f3e1333895",
+                "img_3": "48ac21821b958853275ca1c6bae4ee8d",
+                "title": "重庆建筑图册",
+                "country": "中国",
+                "province": "重庆",
+                "city":"重庆"
+            },
+            {
+                "id":"4",
+                "img_1": "bb5b3000a4d55d42bf21f3b6d246c48a",
+                "img_2": "b16c54b0a5b2b650dd232014e9ed36ed",
+                "img_3": "e52507106f75dda1596dfcbde23cab91",
+                "title": "广州建筑图册",
+                "country": "中国",
+                "province": "广东",
+                "city":"广州"
+            },
+            {
+                "id":"5",
+                "img_1": "879395517547fb7be0209a0cd9a4acdd",
+                "img_2": "5ca6bc5733470e7aedd8a5a4ef338c54",
+                "img_3": "3b5d91972c923d61b060bd8ef261588f",
+                "title": "成都建筑图册",
+                "country": "中国",
+                "province": "四川",
+                "city":"成都"
+            },
+            {
+                "id":"6",
+                "img_1": "50d532bc0f2aa9c66da36dfa83c26a15",
+                "img_2": "066b5ce6886b31dc231edf828608c338",
+                "img_3": "9f134672818c28b54528a35fd8558784",
+                "title": "北京建筑图册",
+                "country": "中国",
+                "province": "北京",
+                "city":"北京"
+            }
+        ]
+    }
+}

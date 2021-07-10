@@ -1,0 +1,37 @@
+{
+    "status": 200,
+    "msg": "success",
+    "data": {
+        "list": [
+            {
+                "album_id":"1",
+                "topic_id":"",
+                "user_id":"",
+                "name":"苏州建筑图册",
+                "description":"占位符占位符占位符占位符占位符占位符占位符",
+                "language":"中文",
+                "keyword_list":"建筑",
+                "category_id":"1",
+                "tag_id_list":[],
+                "copyright_id":"",
+                "country_id":"",
+                "province_id":"",
+                "city_id":"",
+                "district_id":"",
+                "address":"",
+                "lo_latitude":"",
+                "create_at":"2020-2-1",
+                "update_at":"2021-2-1",
+                "is_checked":false,
+                "is_closed":false,
+                "img_count":3,
+                "zimg1_id":"03031ea9da74412f68a2b32ab0defaea",
+                "zimg2_id":"43c3aea7e69ce7031307f167eb2a3433",
+                "zimg3_id":"6ca52a402645a50583f9faf6ce07d245",
+                "visit_count":"",
+                "order":""
+            }
+           
+        ]
+    }
+}
