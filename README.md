@@ -1,4 +1,4 @@
-#### English | [中文](./Chinese_Introduction/README.md)
+### English | [中文](./Chinese_Introduction)
 
 # <img src='./images/logo.png' height='60'/>
 
