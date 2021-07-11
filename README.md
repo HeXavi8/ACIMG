@@ -1,6 +1,12 @@
-# <img src='https://github.com/HeXavi8/ACIMG/blob/main/images/logo.png' height='60'/>
+#### English | [中文](./Chinese_Introduction/README.md)
 
-ACIMG(Arts & Culture Images) aims to create a nation wide image dataset of cultural relics and ancient buildings by college students from all over the country. This is carried out in the form of the matic image solicitation. For example, in the image project of Lingnan architecture, college students in Guangdong take pictures of typical Lingnan buildings in their study places or hometown with mobile phones and other photographing equipment, and then upload them to the ACIMG system.
+# <img src='./images/logo.png' height='60'/>
+
+ACIMG(Arts & Culture Images) aims to create a nationwide image dataset of cultural relics and ancient buildings by college students from all over the country. This is carried out in the form of thematic image solicitation. For example, in the image project of Lingnan architecture, college students in Guangdong take pictures of typical Lingnan buildings in their study places or hometown with mobile phones and other photographing equipment, and then upload them to the ACIMG system.
+
+In order to effectively support the acquisition process of architectural images, the ACIMG system consists of ACIMG Web platform, ACIMG WeChat applet and other client terminals, which are convenient for users to upload and view architectural image data sets. The image organization structure of architectural image data set is ACIMG platform - thematic - atlas - image.
+
+The massive architectural image data collected by ACIMG will provide basic data assets for the study of architectural history and architectural art and culture, and at the same time, it can also effectively support the migration and application, which means that architectural art and culture can guide the innovation and creation of other aspects. For example, AI-style paintings, users can select appropriate photos from ACIMG image data, and generate artistic architectural theme paintings through AI algorithm.
 
 This project is still under development.
 
@@ -12,13 +18,13 @@ This project is still under development.
 
 ## Snapshots <a name="Snapshots"></a>
 
-<img src='https://github.com/HeXavi8/ACIMG/blob/main/images/altas.png' width='200'/>&emsp;<img src='https://github.com/HeXavi8/ACIMG/blob/main/images/detail1.png' width='200'/>&emsp;<img src='https://github.com/HeXavi8/ACIMG/blob/main/images/detail2.png' width='200'/>&emsp;<img src='https://github.com/HeXavi8/ACIMG/blob/main/images/my.png' width='200'/>
+<img src='./images/altas.png' width='200'/>&emsp;<img src='./images/detail1.png' width='200'/>&emsp;<img src='./images/detail2.png' width='200'/>&emsp;<img src='./images/my.png' width='200'/>
 
 ## Usage <a name="Usage"></a>
 
 Please clone the repository and run in Wechat Dvetools. (Front-end code only so far)
 
-In app.js, the type of back-end files is json, please refer to [demo.json](https://github.com/HeXavi8/ACIMG/blob/main/data/demo.json) and [album.json](https://github.com/HeXavi8/ACIMG/blob/main/data/album.json)
+In app.js, the type of back-end files is json, please refer to [demo.json](./data/demo.json) and [album.json](./data/album.json)
 
 ```
   globalData: {
@@ -37,4 +43,4 @@ In app.js, the type of back-end files is json, please refer to [demo.json](https
 Our code and design are far from perfect. If you have any suggestions or would like to contribute code, please feel free to contact us or make pull requests. </br>
 
 ## License <a name="License"></a>
-[MIT](https://github.com/HeXavi8/ACIMG/blob/main/LICENSE)
+[MIT](./LICENSE)
