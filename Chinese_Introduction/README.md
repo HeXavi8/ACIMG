@@ -1,4 +1,4 @@
-### [English](../README.md) | 中文
+### [English](https://github.com/HeXavi8/ACIMG) | 中文
 
 
 # <img src='../images/logo.png' height='60'/>
