@@ -12,8 +12,8 @@ ACIMG汇聚的海量建筑图像数据，将为建筑历史、建筑艺术文化
 项目仍在开发过程中。
 
 ## 目录
-* [项目截图](#Snapshots)
-* [项目使用](#Usage)
+* [截图](#Snapshots)
+* [使用](#Usage)
 * [项目成员](#Project_Members)
 * [License](#License)
 
