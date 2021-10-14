@@ -2,11 +2,11 @@
 
 # <img src='./images/logo.png' height='60'/>
 
-ACIMG(Arts & Culture Images) aims to create a nationwide image dataset of cultural relics and ancient buildings by college students from all over the country. This is carried out in the form of thematic image solicitation. For example, in the image project of Lingnan architecture, college students in Guangdong take pictures of typical Lingnan buildings in their study places or hometown with mobile phones and other photographing equipment, and then upload them to the ACIMG system.
+ACIMG(Arts & Culture Images) aims to create a nationwide image dataset of cultural relics and ancient buildings by college students from all over the country.  For example, in the image project of Lingnan architecture, college students in Guangdong take pictures of typical Lingnan buildings in their study places or hometown with mobile phones and other photographing equipment and then upload them to the ACIMG system.
 
-In order to effectively support the acquisition process of architectural images, the ACIMG system consists of ACIMG Web platform, ACIMG Wechat Mini Program and other client terminals, which are convenient for users to upload and view architectural image data sets. The image organization structure of architectural image data set is ACIMG platform - thematic - atlas - image.
+To effectively support the acquisition process of architectural images, the ACIMG system consists of ACIMG Web platform, ACIMG Wechat Mini Program, and other client terminals, which are convenient for users to upload and view architectural images data sets. The image organization structure of the architectural image data set is ACIMG platform - thematic - atlas - image.
 
-The massive architectural image data collected by ACIMG will provide basic data assets for the study of architectural history and architectural art and culture, and at the same time, it can also effectively support the migration and application, which means that architectural art and culture can guide the innovation and creation of other aspects. For example, AI-style paintings, users can select appropriate photos from ACIMG image data, and generate artistic architectural theme paintings through AI algorithm.
+The massive architectural image data collected by ACIMG will provide primary data assets for studying architectural history and architectural art and culture. At the same time, it can also effectively support migration and application, which means that architectural art and culture can guide the innovation and creation of other aspects. For example, users can select appropriate photos from ACIMG image data in AI-style paintings and generate artistic architectural theme paintings through the AI algorithm.
 
 This project is still under development.
 
