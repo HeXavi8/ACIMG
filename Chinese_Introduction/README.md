@@ -38,7 +38,7 @@ ACIMG汇聚的海量建筑图像数据，将为建筑历史、建筑艺术文化
 ```
 
 ## 项目成员 <a name="Project_Members"></a>
-- [Xavi](https://github.com/HeXavi8) - **Xavi He** &lt; 825308876@qq.com&gt; &lt; yuminghe.work@outlook.com&gt;(he/him)
+- [Xavi](https://github.com/HeXavi8) - **Xavi He** &lt; 825308876@qq.com&gt; (he/him)
 - [Chen Cantao](https://github.com/JustForStudy064) - **Chen Cantao** &lt; 844523879@qq.com&gt; (he/him)
 
 我们的代码和设计远非完美。如果您有任何建议或想贡献代码，请随时联系我们或作出拉请求。 </br>
