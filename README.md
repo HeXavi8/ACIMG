@@ -22,9 +22,9 @@ This project is currently under development.
 
 ## Usage <a name="Usage"></a>
 
-Please clone the repository and run in Wechat Dvetools. (Front-end code only so far)
+Please clone the repository and run it in WeChat DevTools. (Front-end code only at this time)
 
-In app.js, the type of back-end files is json, please refer to [demo.json](./data/demo.json) and [album.json](./data/album.json)
+In `app.js`, the backend data format is JSON. Please refer to [demo.json](./data/demo.json) and [album.json](./data/album.json) for examples.
 
 ```
   globalData: {
@@ -37,7 +37,7 @@ In app.js, the type of back-end files is json, please refer to [demo.json](./dat
 ```
 
 ## Project Members <a name="Project_Members"></a>
-- [Xavi](https://github.com/HeXavi8) - **Xavi He** &lt;825308876@qq.com&gt;(he/him)
+- [Xavi](https://github.com/HeXavi8) - **Xavi He** &lt;xavihe.work@outlook.com&gt;(he/him)
 - [Chen Cantao](https://github.com/JustForStudy064) - **Chen Cantao** &lt;844523879@qq.com&gt; (he/him)
 
 Our code and design are far from perfect. If you have any suggestions or would like to contribute to this repository, please feel free to contact us or make pull requests. </br>
